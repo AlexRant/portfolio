@@ -1,0 +1,78 @@
+:root {
+  --mainBlue: #2a2a72;
+  --lightBlue: #009ffd;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainYellow: #ffa400;
+}
+
+.starter {
+	margin-top: 50px;
+	height: 100vh;
+	background-image: url(IMG_20181014_152008-min.jpg);
+	-webkit-background-size: cover;
+	background-position: center;
+	background-size: cover;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	
+}
+
+.starter-text {
+	background: rgba(255, 255, 255, 0.35);
+	width: 60%;
+	margin: 0 auto;
+	transition: all 0.5s ease-in-out;
+	border-radius: 5%;
+	font-family: 'Signika', sans-serif;
+	font-size: 1.7rem;
+	color: rgba(0, 0, 0, 0.35);
+}
+
+.starter-text:hover {
+	background-color: rgba(255, 255, 255, 0.95);
+	color: rgba(90, 70, 70, 0.95);
+}
+
+.card a img{
+	max-width: 100%;
+}
+
+.card img {
+	height: 250px;
+	transition-duration: 0.5s;
+}
+
+.card-body {
+	min-height: 110px;
+}
+
+.card img:hover {
+	transform: scale(1.1);
+}
+
+footer .footer-mail {
+	font-size: 1.4rem;
+}
+
+.up {
+	transition: all 0.5s ease-in-out;
+}
+
+.up:hover {
+	color: var(--lightBlue);
+}
+
+@media only screen and (max-width: 600px) {
+  section p {
+  	font-size: 1.2rem;
+  }
+
+  footer h3 {
+  	font-size: 1.5rem;
+  }
+}
